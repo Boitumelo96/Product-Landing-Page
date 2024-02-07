@@ -1,0 +1,62 @@
+#nav-bar {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0; /* Add padding to create space above and below the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for separation */
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        padding-top: 60px; /* Adjust padding to create space between navbar and content */
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    padding: 10px; /* Add padding for better spacing within the container */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Improve accessibility by adding focus styles */
+li a:focus {
+    outline: 2px solid #fff;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+body {
+    text-align: justify;
+    margin: 50px;
+}
