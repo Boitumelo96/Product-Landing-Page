@@ -1,1 +1,1 @@
-This is my practice of the html amd css
+This is my practice of the html and css
